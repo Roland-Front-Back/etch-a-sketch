@@ -30,7 +30,7 @@ function getRandomColor() {
   const r = getRandomNumber(256);
   const g = getRandomNumber(256);
   const b = getRandomNumber(256);
-  return `rgb(${r},${g}, ${b})`;
+  return `rgb(${r},${g},${b})`;
 }
 
 gridButton.addEventListener("click", () => {
@@ -43,7 +43,3 @@ gridButton.addEventListener("click", () => {
 });
 
 resetButton.addEventListener("click", () => {});
-
-// function changeBackground(color) {
-//     document.body.style.backgroundColor = color;
-// }
